@@ -1,0 +1,54 @@
+/* < !-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 60%;
+    height: 200px;
+    min-width: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    flex-shrink: 1;
+    box-sizing: border-box;
+}
+
+main section {
+    display: flex;
+    flex-basis: 100px;
+    min-width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+div.summ{
+    margin:auto;
+    padding: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
