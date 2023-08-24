@@ -247,7 +247,8 @@ div.mainsec {
 
 @media only screen and (max-width: 800px) {
     div.mainsec {
-        flex-direction: column;
+
+        flex-direction: row;
         align-items: center;
         border-radius: 2em;
         box-sizing: border-box;
