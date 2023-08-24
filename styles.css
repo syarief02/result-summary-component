@@ -55,11 +55,20 @@ div#round {
     border-radius: 50%;
     border: 2px solid black;
     padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
+    align-items: center;
 }
-#sec1{
-    background-color: blueviolet;
+
+#sec1 {
+    background-color: rgb(52, 43, 226);
+    color: white;
+    text-align: center;
+    border-radius: 5%;
 }
+
 #sec1 div:nth-of-type(2) {
     width: 100%;
     text-align: center;
@@ -73,7 +82,7 @@ h2 {
     margin: 1em;
 }
 
-div.item {
+div.sumcon div.item {
     /* background-color: blue; */
     display: inline;
     text-align: left;
@@ -82,7 +91,7 @@ div.item {
     margin: 1.5em 0;
 }
 
-div.summ {
+div.sumcon div.summ {
     /* background-color: red; */
     width: 40%;
     display: inline;
@@ -93,4 +102,30 @@ div.summ {
 
 section button {
     margin: 1em;
+}
+
+#round span {
+    font-size: 50px;
+}
+
+.summ span {
+    font-size: larger;
+}
+
+div.sumcon {
+    width: 100%;
+    height: 16%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-content: baseline;
+    justify-content: space-evenly;
+}
+
+#sumtitle {
+    text-align: left;
+}
+
+#info{
+    width: 68%;
 }
