@@ -255,7 +255,6 @@ div.mainsec {
         margin: 0;
         justify-self: center;
         align-content: center;
-        /* height: 100vh; */
         flex-grow: 1;
         width: 100%;
     }
