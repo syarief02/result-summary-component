@@ -244,7 +244,12 @@ div.mainsec {
     min-width: fit-content;
     max-width: fit-content;
 }
+@media only screen and (max-width: 830px) {
 
+    main{
+        padding: 0;
+    }
+}
 @media only screen and (max-width: 800px) {
     div.mainsec {
 
