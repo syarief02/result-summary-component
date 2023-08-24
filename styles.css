@@ -20,32 +20,33 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
+    background-color: rgb(253, 251, 248);
 }
 
 main {
     font-family: 'Hanken Grotesk';
     font-weight: 1200;
-    display: flex;
+
     min-width: 100px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-shrink: 1;
+
     box-sizing: border-box;
-    border: 2px solid black;
-    padding: 10em 20em;
+    /* border: 2px solid black; */
+    padding: 15rem 20rem;
 
-    background-color: rgb(255, 254, 253);
-
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+    box-shadow: 10px 10px 30px -20px grey;
+    background-color: rgb(255, 253, 253)
 }
 
 main section {
     display: flex;
-    width: 290px;
+    width: 300px;
     max-width: 300px;
-    height: 400px;
+    height: 450px;
     border: 1px solid rgba(0, 0, 0, 0);
     display: flex;
     margin: 0;
@@ -59,6 +60,7 @@ main section {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
+  
 }
 
 div#round {
@@ -67,17 +69,20 @@ div#round {
     text-align: center;
     box-sizing: border-box;
     border-radius: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
+  background-image: linear-gradient(180deg, #4d22c9, #4734ef);
 }
 
 #sec1 {
-    background-color: rgb(52, 43, 226);
+    /* background-color: #312ceb; */
+    
+  background-image: linear-gradient(180deg, #6742ff, #312ceb);
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
     border-radius: 2em;
@@ -86,7 +91,8 @@ div#round {
 #sec2 {
     border-radius: 0% 2em 2em 0%;
     background-color: white;
-    box-shadow:10px 10px 25px 10px rgb(249, 248, 246);;
+    font-weight: 800;
+    color: rgb(161, 158, 160);
 }
 
 #sec1 div:nth-of-type(2) {
@@ -125,7 +131,12 @@ div.sumcon div.summ {
 
 section button {
     margin: 1em;
-    padding: 1em 6em;
+    padding: 1em 7em;
+    font-family: inherit;
+    font-weight: 800;
+    background-color: #303b59;
+    color: white;
+    border-radius: 5em;
 }
 
 #round span {
@@ -135,23 +146,26 @@ section button {
 }
 
 .summ span {
-    font-size: larger;
+    font-size: medium;
+    color: black;
 }
 
 div.sumcon {
     width: 80%;
-    height: 16%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-    
+border-radius: 0.5em;
 }
 
 #sumtitle {
     text-align: left;
+    margin-left: 0;
+    color: black;
     /* padding-left: 1em; */
 }
 
@@ -165,4 +179,55 @@ div.sumcon .titlecard {
     transform: translateY(-20px);
     font-size: small;
     width: 60%;
+}
+
+div.mainsec {
+    /* border: 2px solid grey; */
+    background-color: white;
+    width: 600px;
+    border-radius: 2em;
+    box-sizing: border-box;
+    box-shadow: 5px 15px 30px 12px #e8edfe;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    flex-basis:content;
+    flex-wrap: wrap;
+}
+
+#r1 {
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+#reaction {
+    color: red;
+}
+
+#m2 {
+    background-color: rgba(255, 166, 0, 0.05);
+}
+
+#memory {
+    color: orange;
+}
+
+#v3 {
+    background-color: rgba(0, 128, 0, 0.05);
+}
+
+#verbal {
+    color: green
+}
+
+#v4 {
+    background-color: rgba(128, 0, 128, 0.05);
+}
+
+#visual {
+    color: blueviolet;
+}
+
+img{
+    transform: translateY(0.25em);
 }
