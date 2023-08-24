@@ -250,6 +250,7 @@ div.mainsec {
       border-radius: 2em;
       box-sizing: border-box;
       box-shadow: 5px 15px 30px 12px #e8edfe;
+        margin:0;
     }
     main {
         font-family: 'Hanken Grotesk';
@@ -257,7 +258,7 @@ div.mainsec {
         /* min-width: 100px; */
         box-sizing: border-box;
         /* border: 2px solid black; */
-        padding: 0;
+        padding: 0 0;
         margin: 0 0;
         display: inline-flex;
         flex-direction: column;
