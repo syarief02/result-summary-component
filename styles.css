@@ -244,7 +244,7 @@ div.mainsec {
     min-width: fit-content;
     max-width: fit-content;
 }
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 916px) {
 
     main{
         padding: 0;
@@ -298,8 +298,8 @@ div.mainsec {
         margin: 0;
         padding: 0;
         background-color: rgb(253, 251, 248);
-        align-content: flex-start;
-        justify-content: flex-start;
+        align-content: center;
+        justify-content: center;
         justify-items: center;
         align-items: center;
         flex-wrap: wrap;
