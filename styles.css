@@ -275,7 +275,8 @@ div.mainsec {
         background-color: rgb(255, 253, 253);
         flex-wrap: wrap;
         align-content: center;
-    
+    width: 300px;
+    max-width: 300px;
     }
   }
 
