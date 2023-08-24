@@ -37,7 +37,7 @@ main {
     box-sizing: border-box;
     /* border: 2px solid black; */
     padding: 15rem 20rem;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -278,6 +278,26 @@ div.mainsec {
     width: 300px;
     max-width: 300px;
     }
+    
+body{
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    margin: 0;
+    padding : 0;
+    background-color: rgb(253, 251, 248);
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    width: 300px;
+    max-width: 300px;
+}
+
+    
   }
 
 #r1 {
