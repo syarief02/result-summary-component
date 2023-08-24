@@ -253,6 +253,7 @@ div.mainsec {
         margin:0;
         justify-self: center;
         align-content: center;
+        height:100vh;
     }
     main {
         font-family: 'Hanken Grotesk';
