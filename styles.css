@@ -21,6 +21,7 @@ body {
     place-items: center;
     margin: 0;
     background-color: rgb(253, 251, 248);
+  
 }
 
 main {
@@ -60,7 +61,6 @@ main section {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-  
 }
 
 div#round {
@@ -76,16 +76,17 @@ div#round {
     justify-content: center;
     align-content: center;
     align-items: center;
-  background-image: linear-gradient(180deg, #4d22c9, #4734ef);
+    background-image: linear-gradient(180deg, #4d22c9, #4734ef);
 }
 
 #sec1 {
     /* background-color: #312ceb; */
-    
-  background-image: linear-gradient(180deg, #6742ff, #312ceb);
+
+    background-image: linear-gradient(180deg, #6742ff, #312ceb);
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
     border-radius: 2em;
+    transition: all 0.5s;
 }
 
 #sec2 {
@@ -118,6 +119,8 @@ div.sumcon div.item {
     width: 40%;
     padding: 1em 1em -1em 1em;
     margin: 1.5em 0;
+    
+    transition: all 0.5s;
 }
 
 div.sumcon div.summ {
@@ -127,6 +130,7 @@ div.sumcon div.summ {
     text-align: right;
     margin: 1.5em 0;
     padding: 1em -1em 1em 1em;
+    transition: all 0.5s;
 }
 
 section button {
@@ -137,12 +141,38 @@ section button {
     background-color: #303b59;
     color: white;
     border-radius: 5em;
+    transition: all 0.1s;
 }
 
+section button:hover {
+    margin: 1em;
+    padding: 1em 7em;
+    font-family: inherit;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #6742ff, #312ceb);
+    color: white;
+    border-radius: 5em;
+    cursor: pointer;
+    transform: translateY(-0.25em);
+ 
+    box-shadow: 0.1em 0.6em 0.7em -0.25em grey;
+}
+section button:active:hover {
+    margin: 1em;
+    padding: 1em 7em;
+    font-family: inherit;
+    font-weight: 800;
+    background-color: #303b59;
+    color: white;
+    border-radius: 5em;
+    transform: translateY(+0.25em);
+    box-shadow: none;
+}
 #round span {
     font-size: 3.5em;
     font-weight: 800;
     color: whitesmoke;
+    transition: all 0.5s;
 }
 
 .summ span {
@@ -159,7 +189,7 @@ div.sumcon {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-border-radius: 0.5em;
+    border-radius: 0.5em;
 }
 
 #sumtitle {
@@ -191,8 +221,8 @@ div.mainsec {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
-    flex-basis:content;
+    justify-content: center;
+    flex-basis: content;
     flex-wrap: wrap;
 }
 
@@ -228,6 +258,10 @@ div.mainsec {
     color: blueviolet;
 }
 
-img{
+img {
     transform: translateY(0.25em);
+}
+
+div .item {
+    padding-bottom: 0.25em;
 }
