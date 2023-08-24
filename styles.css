@@ -19,12 +19,12 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
-
     margin: 0;
 }
 
 main {
     font-family: 'Hanken Grotesk';
+    font-weight: 1200;
     display: flex;
     min-width: 100px;
     flex-wrap: wrap;
@@ -34,6 +34,11 @@ main {
     align-content: center;
     flex-shrink: 1;
     box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10em 20em;
+
+    background-color: rgb(255, 254, 253);
+
 }
 
 main section {
@@ -53,6 +58,7 @@ main section {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    background-color: white;
 }
 
 div#round {
@@ -74,7 +80,13 @@ div#round {
     background-color: rgb(52, 43, 226);
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
-    border-radius: 10%;
+    border-radius: 2em;
+}
+
+#sec2 {
+    border-radius: 0% 2em 2em 0%;
+    background-color: white;
+    box-shadow:10px 10px 25px 10px rgb(249, 248, 246);;
 }
 
 #sec1 div:nth-of-type(2) {
@@ -82,7 +94,7 @@ div#round {
     text-align: center;
 }
 
-h1{
+h1 {
     color: whitesmoke;
 }
 
@@ -113,10 +125,11 @@ div.sumcon div.summ {
 
 section button {
     margin: 1em;
+    padding: 1em 6em;
 }
 
 #round span {
-    font-size: 3.5em ;
+    font-size: 3.5em;
     font-weight: 800;
     color: whitesmoke;
 }
@@ -126,7 +139,7 @@ section button {
 }
 
 div.sumcon {
-    width: 100%;
+    width: 80%;
     height: 16%;
     display: flex;
     flex-direction: row;
@@ -134,6 +147,7 @@ div.sumcon {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 #sumtitle {
@@ -141,16 +155,14 @@ div.sumcon {
     /* padding-left: 1em; */
 }
 
-#info {
-    width: 60%;
-}
 
 div.sumcon .titlecard {
-    font-size:large;
+    font-size: large;
     transform: translateY(-0.5em);
 }
 
-#info{
+#info {
     transform: translateY(-20px);
     font-size: small;
+    width: 60%;
 }
