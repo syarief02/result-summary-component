@@ -283,7 +283,7 @@ div.mainsec {
         align-content: center;
         width: 100%;
         max-width: 100%;
-        flex-grow: 1;
+        /* flex-grow: 1; */
     }
 
     body {
