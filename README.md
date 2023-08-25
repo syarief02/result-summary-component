@@ -30,12 +30,16 @@ Users should be able to:
 
 ### Screenshot
 
+Web view:
 ![](./screenshot/result%20summary%20component%20solution.png)
+
+Mobile view - Responsive:
+![](./screenshot/result%20summary%20component%20solution%20-%20mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/syarief02/result-summary-component)
-- Live Site URL: [Add live site URL here](https://syarief02.github.io/result-summary-component/)
+- Solution URL: [https://github.com/syarief02/result-summary-component](https://github.com/syarief02/result-summary-component)
+- Live Site URL: [https://syarief02.github.io/result-summary-component/](https://syarief02.github.io/result-summary-component/)
 
 ## My process
 
@@ -49,23 +53,59 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+- Semantic element and how to insert icon from external source
 ```html
-<h1>Some HTML code I'm proud of</h1>
+          <div class=sumcon id="r1">
+            <div class=item id="reaction"> <img src="./assets/images/icon-reaction.svg" alt=""> Reaction</div>
+            <div class="summ"> <span>80</span> / 100</div>
+          </div>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+
+- how to use viewport height, flexbox, and center content
+```CSS
+body {
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    margin: 0;
+    background-color: rgb(253, 251, 248);
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+- How to use external font
+```CSS
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+main {
+    font-family: 'Hanken Grotesk';
+    font-weight: 1000;
+    font-size: 18px;
 }
 ```
+
+- How to use Linear Gradient
+```CSS
+#sec1 {
+    /* background-color: #312ceb; */
+
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    border-radius: 2em;
+    transition: all 0.5s;
+}
+```
+
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
