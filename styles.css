@@ -55,9 +55,9 @@ main {
 
 main section {
     display: flex;
-    width: 300px;
-    max-width: 300px;
-    height: 450px;
+    width: 375px;
+    max-width: 375px;
+    height: calc(1.5*375px);
     border: 1px solid rgba(0, 0, 0, 0);
     display: flex;
     margin: 0;
@@ -229,7 +229,7 @@ div.sumcon .titlecard {
 div.mainsec {
     /* border: 2px solid grey; */
     background-color: white;
-    width: 600px;
+    width:   calc(2*375px);
     border-radius: 2em;
     box-sizing: border-box;
     box-shadow: 5px 15px 30px 12px #e8edfe;
@@ -244,13 +244,17 @@ div.mainsec {
     min-width: fit-content;
     max-width: fit-content;
 }
+
 @media only screen and (max-width: 916px) {
 
-    main{
+    main {
         padding: 0;
     }
+
 }
+
 @media only screen and (max-width: 800px) {
+
     div.mainsec {
 
         flex-direction: row;
