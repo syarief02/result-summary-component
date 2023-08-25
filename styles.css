@@ -16,7 +16,7 @@
 }
 
 body {
-
+font-size: 18px;
     min-height: 100vh;
     display: flex;
     place-items: center;
@@ -33,6 +33,7 @@ body {
 main {
     font-family: 'Hanken Grotesk';
     font-weight: 1000;
+    font-size: 18px;
     /* min-width: 100px; */
     box-sizing: border-box;
     /* border: 2px solid black; */
@@ -54,6 +55,7 @@ main {
 }
 
 main section {
+    font-size: 18px;
     display: flex;
     width: 375px;
     max-width: 375px;
@@ -76,8 +78,10 @@ main section {
 }
 
 div#round {
-    width: 10em;
-    height: 10em;
+    width: 13em;
+    font-size:medium;
+    font-weight: 500;
+    height: 13em;
     text-align: center;
     box-sizing: border-box;
     border-radius: 50%;
@@ -88,14 +92,14 @@ div#round {
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: linear-gradient(180deg, #4d22c9, #4734ef);
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 #sec1 {
     /* background-color: #312ceb; */
 
-    background-image: linear-gradient(180deg, #6742ff, #312ceb);
-    color: rgba(255, 255, 255, 0.65);
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
     text-align: center;
     border-radius: 2em;
     transition: all 0.5s;
@@ -114,7 +118,8 @@ div#round {
 }
 
 h1 {
-    color: whitesmoke;
+    color: hsl(0, 0%, 100%);
+    font-size:xx-large;
 }
 
 h2 {
@@ -122,6 +127,8 @@ h2 {
     height: 5%;
     text-align: center;
     margin: 1em;
+    font-weight: 800;
+    font-size:x-large;
 }
 
 div.sumcon div.item {
@@ -150,8 +157,8 @@ section button {
     padding: 1em 7em;
     font-family: inherit;
     font-weight: 800;
-    background-color: #303b59;
-    color: white;
+    background-color:hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
     border-radius: 5em;
     transition: all 0.1s;
 }
@@ -161,8 +168,8 @@ section button:hover {
     padding: 1em 7em;
     font-family: inherit;
     font-weight: 800;
-    background-image: linear-gradient(180deg, #6742ff, #312ceb);
-    color: white;
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
     border-radius: 5em;
     cursor: pointer;
     transform: translateY(-0.25em);
@@ -175,17 +182,17 @@ section button:active:hover {
     padding: 1em 7em;
     font-family: inherit;
     font-weight: 800;
-    background-color: #303b59;
-    color: white;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
     border-radius: 5em;
     transform: translateY(+0.25em);
     box-shadow: none;
 }
 
 #round span {
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: 800;
-    color: whitesmoke;
+    color: hsl(221, 100%, 96%);
     transition: all 0.5s;
 }
 
@@ -216,20 +223,22 @@ div.sumcon {
 
 
 div.sumcon .titlecard {
-    font-size: large;
+    font-size: x-large;
+    font-weight: 700;
     transform: translateY(-0.5em);
 }
 
 #info {
     transform: translateY(-20px);
-    font-size: small;
+    font-size: 18px;
+    font-weight: 500;
     width: 60%;
 }
 
 div.mainsec {
     /* border: 2px solid grey; */
     background-color: white;
-    width:   calc(2*375px);
+    width: calc(2*375px);
     border-radius: 2em;
     box-sizing: border-box;
     box-shadow: 5px 15px 30px 12px #e8edfe;
@@ -318,35 +327,35 @@ div.mainsec {
 }
 
 #r1 {
-    background-color: rgba(255, 0, 0, 0.05);
+    background-color: hsla(0, 100%, 67%, 0.05);
 }
 
 #reaction {
-    color: red;
+    color: hsl(0, 100%, 67%);
 }
 
 #m2 {
-    background-color: rgba(255, 166, 0, 0.05);
+    background-color: hsla(39, 100%, 56%, 0.05);
 }
 
 #memory {
-    color: orange;
+    color: hsl(39, 100%, 56%);
 }
 
 #v3 {
-    background-color: rgba(0, 128, 0, 0.05);
+    background-color: hsla(166, 100%, 37%, 0.05);
 }
 
 #verbal {
-    color: green
+    color: hsl(166, 100%, 37%)
 }
 
 #v4 {
-    background-color: rgba(128, 0, 128, 0.05);
+    background-color: hsla(234, 85%, 45%, 0.05);
 }
 
 #visual {
-    color: blueviolet;
+    color: hsl(234, 85%, 45%);
 }
 
 img {
