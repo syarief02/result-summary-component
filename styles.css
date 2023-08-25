@@ -304,7 +304,7 @@ div.mainsec {
         flex-wrap: wrap;
         align-content: center;
         width: 100%;
-        max-width: 100%;
+        /* max-width: 100%; */
         /* flex-grow: 1; */
     }
 
