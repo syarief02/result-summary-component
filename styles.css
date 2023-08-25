@@ -58,8 +58,8 @@ main section {
     font-size: 18px;
     display: flex;
     width: 375px;
-    max-width: 375px;
-    height: calc(1.5*375px);
+    max-width: 100%;
+    height: calc(550px);
     border: 1px solid rgba(0, 0, 0, 0);
     display: flex;
     margin: 0;
