@@ -303,7 +303,7 @@ div.mainsec {
         flex-wrap: wrap;
         align-content: center;
         width: 100%;
-        max-width: fit-content;
+        max-width:max-content;
         /* flex-grow: 1; */
     }
 
