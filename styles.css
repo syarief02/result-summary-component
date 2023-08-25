@@ -278,7 +278,8 @@ div.mainsec {
         justify-self: center;
         align-content: center;
         flex-grow: 1;
-        width: calc(737/510*375px);
+        width: 100%;
+        max-width: calc(737/510*375px);
     }
 
     main {
@@ -303,7 +304,7 @@ div.mainsec {
         flex-wrap: wrap;
         align-content: center;
         width: 100%;
-        max-width:max-content;
+        max-width: 100%;
         /* flex-grow: 1; */
     }
 
