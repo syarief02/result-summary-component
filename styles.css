@@ -200,7 +200,7 @@ section button:active:hover {
 }
 
 .summ span {
-    font-size: medium;
+    font-size: inherit;
     color: black;
 }
 
@@ -367,4 +367,8 @@ img {
 
 div .item {
     padding-bottom: 0.25em;
+}
+
+#sumtitle, .summ span {
+    color: hsl(224, 30%, 27%);
 }
