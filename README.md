@@ -106,34 +106,62 @@ main {
 }
 ```
 
+- learned how to use media query to adjust the width for mobile view
+```CSS
+@media only screen and (max-width: 800px) {
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+    div.mainsec {
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+        flex-direction: row;
+        align-items: center;
+        border-radius: 2em;
+        box-sizing: border-box;
+        box-shadow: 5px 15px 30px 12px #e8edfe;
+        margin: 0;
+        justify-self: center;
+        align-content: center;
+        flex-grow: 1;
+        width: 100%;
+        max-width: calc(737/510*375px);
+    }
+```
+
+- learned opacity
+```CSS
+#r1 {
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+```
+
+- learned how to adjust position slightly using Transform: Translate properties
+```CSS
+img {
+    transform: translateY(0.25em);
+}
+```
+
+- I also learned about specificity in css element selector.
+
+I learned a lot since this is my first project by doing the front end mentor challenges.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For now my focus is to continue learning more about the web development. there's so much more i've never heard about. some people suggested bootstrap while i was doing this challenge for mobile view.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [StackOverflow](https://stackoverflow.com/questions/52941346/css-height-calc100vh-vs-height-100vh) - This helped me fora lot of things such as understanding some properties i don't know about. because there's a lot of people with similar problem and people who solved the problem with example. I really liked this site and will use it going forward.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) - This is an amazing website which i can find courses to learn everything about tech. I'd recommend it to anyone still learning web development.
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Syarief Azman](https://github.com/syarief02)
+- Frontend Mentor - [@syarief02](https://www.frontendmentor.io/profile/syarief02)
+- Twitter - [@SyariefAzman](https://www.twitter.com/SyariefAzman)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Colt Steele - I learned web development bootcamp from Udemy by Colt Steele. the course is complete with everything we needed to be a full stack web dev. I would really recommend it to anyone else.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
