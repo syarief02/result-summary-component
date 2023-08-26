@@ -48,7 +48,6 @@ Mobile view - Responsive:
 - Semantic HTML5 markup
 - CSS built-in properties
 - Flexbox
-- CSS Grid
 - Desktop-first workflow
 
 ### What I learned
