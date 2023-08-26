@@ -18,7 +18,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Overview
 
-hi welcome everyone! this is my first challeng on the front end mentor website. i'm not actually sure about some flex properties such as justify-content, align-item, align-content. also i don't know a thing about media query, didn't learn it yet. forgive me if you saw so many unnecessery things inside of it >_<
+hi welcome everyone! this is my first challeng on the front end mentor website. i'm not actually sure about some flex properties such as justify-content, align-item, align-content. also i don't know a thing about media query, didn't learn it yet. forgive me if you saw so many unnecessery things inside of it :stuck_out_tongue_closed_eyes:
   
 ### The challenge
 
